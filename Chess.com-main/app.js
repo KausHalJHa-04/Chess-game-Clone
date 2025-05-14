@@ -7,7 +7,7 @@ import { Chess } from "chess.js";
 import path from "path";
 import { fileURLToPath } from "url";
 import { injectSpeedInsights } from "@vercel/speed-insights";
-
+ 
 injectSpeedInsights();
 inject();
 const __filename = fileURLToPath(import.meta.url);
