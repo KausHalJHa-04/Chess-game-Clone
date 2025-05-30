@@ -4,7 +4,7 @@ import { inject } from "@vercel/analytics";
 
 import http from "http"; 
 import { Chess } from "chess.js";
-import path from "path";
+import path from "path"; 
 import { fileURLToPath } from "url";
 import { injectSpeedInsights } from "@vercel/speed-insights";
  
